@@ -41,6 +41,7 @@ rvm install ruby-1.9.2-p290
 ```
 
 * E o ambiente_app_contatos é criado:
+
 ```
 rvm --create 1.9.2-p290@ambiente_app_contatos
 ```
@@ -52,6 +53,7 @@ Using /home/ep/.rvm/gems/ruby-1.9.2-p290 with gemset ambiente_app_contatos
 ```
 
 * Por fim, a instalação das dependências do projeto ocorre com o comando:
+
 ```
 bundle install
 ```
